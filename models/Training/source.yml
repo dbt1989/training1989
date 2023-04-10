@@ -1,9 +1,0 @@
-version: 2
-
-sources:
-  - name: test
-    database: DBT_DB
-    schema: PROD
-    tables:
-      - name: Store_2023
-      - name: Store_Sales_2023
