@@ -1,0 +1,10 @@
+sources:
+  - name: project_prod
+    database: DBT_DB
+    schema: PROD
+    tables:
+      - name: employee
+    freshness: 
+          warn_after: {count: 1, period: minute}
+          error_after: {count: 20, period: minute}
+    loaded_at_field: Created_DT
