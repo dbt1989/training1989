@@ -7,7 +7,7 @@ sources:
     tables:
       - name: employee
     freshness: 
-          warn_after: {count: 20, period: minute}
+          warn_after: {count: 20, period: hour}
           error_after: {count: 20, period: hour}
     loaded_at_field: Created_DT
       
