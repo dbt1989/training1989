@@ -7,4 +7,4 @@ seeds:
       schema: DBT_SQURESHI
   - column_types:
       - COUNTRY: varchar(30)
-      - COUNTRY_CODE: int
+      - COUNTRY_CODE: Number
