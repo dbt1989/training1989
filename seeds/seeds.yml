@@ -3,8 +3,6 @@ version: 2
 seeds:
   - name: dial_code
     config:
-      database: DBT_DB
-      schema: DBT_SQURESHI
-    column_types:
-      COUNTRY: varchar(30)
-      COUNTRY_CODE: Number
+     column_types:
+       COUNTRY: varchar(30)
+       COUNTRY_CODE: Number
