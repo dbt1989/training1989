@@ -5,9 +5,9 @@ seeds:
     config:
      column_types:
        COUNTRY: varchar(30)
-       COUNTRY_CODE: Number
+       COUNTRY_CODE: varchar(30)
        dialcode:
         COUNTRYDIALCODE2:
           column_types:
            COUNTRY: varchar(30)
-           COUNTRY_CODE: Number
+           COUNTRY_CODE: varchar(30)
